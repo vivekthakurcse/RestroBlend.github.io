@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+      <meta name="viewport" content="width= device-width, initial-scale=0.5">
+      <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="OurGallery.css">
+            <script src="Slider.js"></script>
+      </head>
+      <body>
+            <header>
+                  <div id="half"></div>
+                  <div id="2half"><h6>Amazing Taste & Beautiful Place</h6></div>
+            </header>
+                       
+            <h1 id="heading">Our Gallery</h1>
+            <p id="subheading">Have a look at our place and explore our resturant</p>
+            <div class="row">                
+                  <div class="column">
+                        <img src="Photo1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                  </div>
+                  
+                  <div class="column">
+                        <img src="Photo2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                  </div>
+                  
+                  <div class="column">
+                        <img src="Photo3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                  </div>
+                  
+                  <div class="column">
+                        <img src="Photo4.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                  </div>
+              
+            </div>
+            
+            <div id="myModal" class="modal">
+                  <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <div class="modal-content">
+                        
+                        <div class="mySlides">
+                              <div class="numbertext">1 / 4</div>
+                              <img src="Photo1.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                              <div class="numbertext">2 / 4</div>
+                              <img src="Photo2.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                              <div class="numbertext">3 / 4</div>
+                              <img src="Photo3.jpg" style="width:100%">
+                        </div> 
+                        
+                         <div class="mySlides">
+                              <div class="numbertext">4 / 4</div>
+                              <img src="Photo4.jpg" style="width:100%">
+                        </div> 
+                        
+                        <a class="prev" onclick="plusSlides (-1)">&#10094;</a> 
+                        <a class="next" onclick="plusSlides (1)">&#10095;</a>
+                        <div class="caption-container">
+                              <p id="caption"></p>
+                        </div>
+                        
+                        
+                        <div class="column">
+                              <img class="demo cursor" src="Photo1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Dinning Area No.1">
+                        </div>
+                        
+                        
+                        <div class="column">
+                              <img class="demo cursor" src="Photo2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Dinning Area No. 2">
+                        </div>
+                        
+                        
+                        <div class="column">
+                              <img class="demo cursor" src="Photo3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Dinning Area No.3">
+                        </div>
+                        
+                        
+                          <div class="column">
+                              <img class="demo cursor" src="Photo4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Dinning Area No.3">
+                        </div>
+                        
+                        
+                  </div>
+            </div>
+            
+            
+                                         
+      </body>
+</html>

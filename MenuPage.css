@@ -1,0 +1,91 @@
+*{margin: 0;padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 2px;
+}
+
+body{
+      background: #341c11;
+      color: white;
+      display: list-item;
+      list-style: none;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+}
+
+h1{
+      font-size: 3rem;
+      font-weight: 350;
+      /*text-align: center;*/
+      margin: 5% 40% 0 10%;
+}
+.Box1{
+      width: 80%;
+      height: 40rem;
+     /* background: rgba(0,0,0,0.7) url("Background4.jpg");
+      background-blend-mode: darken;
+      background-size: cover;*/
+      margin : 10% 10% 5% 10%;
+}
+.Box1 h1{ text-align: center;
+font-size: 2rem; 
+font-weight: 270;
+padding: 3% ;}
+
+footer{
+      background: #1a1e33;
+      width: 100%;
+      height: 25rem;
+}
+table{width: 80%; 
+border: 1px solid white;
+margin: 0% 10% 20% 10%;}
+
+
+th{ width: 50%;
+border-bottom: 1px solid white;
+border-right: 1px solid white;
+font-weight: 320;
+margin: 0;
+padding: 10px;
+font-size: 1.5rem;}
+
+td{ width: 50%;
+/*border-left: 1px solid white;*/
+font-weight: 300;
+margin: 0;
+padding: 5px;
+font-size: 1rem;
+text-align: center;}
+
+#hline{
+      width: 100%;
+      height: 1px solid white;
+}
+
+#starters{
+      background: rgba(0,0,0,0.6) url("Background4.jpg");
+      background-blend-mode: darken;
+      background-size: cover;
+}
+#drinks{
+      background: rgba(0,0,0,0.6) url("Background5.jpg");
+      background-blend-mode: darken;
+      background-size: cover;
+}
+
+#sweets{
+      background: rgba(0,0,0,0.6) url("Background6.jpg");
+      background-blend-mode: darken;
+      background-size: cover;
+}
+#cakes{
+      background: rgba(0,0,0,0.6) url("Background7.jpg");
+      background-blend-mode: darken;
+      background-size: cover;
+}
+
+p{
+      font-weight: 200;
+}

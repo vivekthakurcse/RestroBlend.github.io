@@ -1,0 +1,33 @@
+body{color: white;}
+footer{
+      background: #3e1a10;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      color: white;
+      position: static;
+      bottom: 0%;
+}
+
+.container9 {
+      width: 50%;
+      height: 90rem;
+}
+.container9 h1{
+      margin: 15% 0% 10% 15%;
+      font-size: 2.5rem;
+}
+.container9 p{
+      margin: 0% 0% 15% 15%;
+      font-size: 1.5rem;
+}
+
+.container9 a{
+      margin: 0% 0% 15% 15%;
+      font-size: 4rem;
+      color: white;
+      text-decoration: none;
+}

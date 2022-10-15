@@ -1,0 +1,200 @@
+  body {
+                  margin: 0;
+                  background: #ffc880;
+            }
+
+            * {
+                  box-sizing: border-box;
+                  margin: 0;
+                  padding: 0;
+                  font-family: 'Montserrat', sans-serif;
+                  font-weight: 350;
+                  letter-spacing: 1.5px;
+                  
+            }
+            
+            
+            #heading{ color: #7d3e1f;
+            font-size: 3rem;
+            font-weight: 350;
+            padding: 10% 0% 2% 0%;
+            text-align: center;}
+            
+            #subheading{
+                  text-align: center;
+                  padding: 0% 0% 2% 0%;
+            }
+            header{
+                  width: 100%;
+                  height: 25rem;
+                  background: #eb9b62da;
+                
+                  display: flex;
+            }
+            
+            #half{
+                  width: 30%;
+                  height: 25rem;
+                  background: url("half.jpg");
+                  background-size: cover;
+                  float: left;
+                  font-size: 4rem;
+                  color: white;
+            }
+            #2half{
+                  width: 70%;
+                  height: 25rem;
+                  float: right;
+                  color: white;
+            }
+            
+            h6{
+                  color: white;
+                  font-size: 3.8rem;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  margin: 25% 5% 15% 5%;
+            }
+            
+            
+
+            .row>.column {
+                  padding: 0 8px;
+            }
+            
+            .row{
+            padding: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+            }
+
+            .column {
+                  float: left;
+                  width: 40%;
+                  display: flex;
+                  padding : 25% 10% 10% 10%;
+                  justify-content: center;
+                  align-items: center;
+            }
+
+            /* This is for modal background */
+            .modal {
+                  display: none;
+                  position: fixed;
+                  z-index: 1;
+                  padding-top: 100px;
+                  left: 0;
+                  top: 0;
+                  width: 100%;
+                  height: 100%;
+                  overflow: auto;
+                  background-color: #ea9a3bc7;
+            }
+
+            .modal-content {
+                  position: relative;
+                  background-color: #fefefe;
+                  margin: auto;
+                  padding: 0;
+                  width: 90%;
+                  max-width: 1200px;
+            }
+
+            /* This is for close button */
+            .close {
+                  color: white;
+                  position: absolute;
+                  top: 10px;
+                  right: 25px;
+                  font-size: 35px;
+                  font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                  color: #999;
+                  text-decoration: none;
+                  cursor: pointer;
+            }
+
+            .mySlides {
+                  display: none;
+            }
+
+            .cursor {
+                  cursor: pointer
+            }
+
+            /* This is for next & prev buttons */
+            .prev,
+            .next {
+                  cursor: pointer;
+                  position: absolute;
+                  top: 50%;
+                  width: auto;
+                  padding: 16px;
+                  margin-top: -50px;
+                  color: white;
+                  font-weight: bold;
+                  font-size: 20px;
+                  transition: 0.6s ease;
+                  border-radius: 0 3px 3px 0;
+                  user-select: none;
+                  -webkit-user-select: none;
+            }
+
+            .next {
+                  right: 0;
+                  border-radius: 3px 0 0 3px;
+            }
+
+            .prev:hover,
+            .next:hover {
+                  background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            .numbertext {
+                  color: #f2f2f2;
+                  font-size: 12px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  top: 0;
+            }
+
+            img {
+                  margin-bottom: -4px;
+            }
+
+            .caption-container {
+                  text-align: center;
+                  background-color: #7d3e1f;
+                  padding: 2% 15%;
+                  color: white;
+            }
+
+            .demo {
+                  opacity: 0.6;
+            }
+
+            .active,
+            .demo:hover {
+                  opacity: 1;
+            }
+
+            img.hover-shadow {
+                  transition: 0.3s
+            }
+
+            .hover-shadow:hover {
+                  box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba (0, 0, 0, 0.19)
+            }
+            
+        
