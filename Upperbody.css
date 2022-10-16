@@ -64,7 +64,7 @@ header {
       width: 31%;
       height: 100%;
 }
-.container3 p{ font-size: 3rem; padding: 13%;opacity: 0.8;}
+.container3 p{ font-size: 2.5rem; padding: 13%;opacity: 0.8;}
 
 .section2{
       width: 100%;
@@ -89,7 +89,7 @@ header {
 }
 
 .container5 p{
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       display: inline-block;
       word-wrap: break-word;
       width: 90%;
