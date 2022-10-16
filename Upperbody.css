@@ -63,6 +63,7 @@ header {
       color: white;
       width: 31%;
       height: 100%;
+      text-align: center;
 }
 .container3 p{ font-size: 2.5rem; padding: 13%;opacity: 0.8;}
 
@@ -86,6 +87,8 @@ header {
       height: 100%;
       background: #00102e;
       color: white;
+      text-align : center ;
+
 }
 
 .container5 p{
